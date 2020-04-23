@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signin.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cabin+Sketch" />
+    <title>Sign in</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>Sign in</h1>
+            <label>Email</label>
+          <input type="email" placeholder="eg., test@gmail.com" id="email">
+          <label id="password">Password</label>
+          <input type="password" placeholder="eg., xxyyzz" id="password">
+
+
+        </form>
+        <button id="myButton" class="submit-btn">Submit</button>
+    </div>
+    <script>
+        function Authe()
+     {
+       document.getElementById("myButton").onclick = function () {
+       location.href ="home.html";
+   };
+     }
+   </script>
+</body>
+</html>
